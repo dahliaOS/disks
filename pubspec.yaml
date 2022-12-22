@@ -1,0 +1,29 @@
+name: disks
+description: Disk Management Tool
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <4.0.0'
+  
+dependencies:
+  flutter:
+    sdk: flutter
+  riverpod: ^2.1.1
+  flutter_riverpod: ^2.1.1
+
+  zenit_ui: 
+    git: https://github.com/dahliaOS/zenit_ui
+
+  udisks: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
